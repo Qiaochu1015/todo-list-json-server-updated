@@ -1,0 +1,88 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding:50px;
+  text-align: center;
+  gap:10px;
+  align-items: stretch;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+input {
+  padding: 0.5rem;
+  flex: 1;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.tasks-container {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 30px;
+  gap: 20px;
+}
+
+h3 {
+  margin-bottom: 40px;
+}
+
+.container  {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 350px;
+  padding: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding:0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap:10px;
+}
+
+ul li{
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li span{
+  flex-grow: 1;
+  text-align: center;
+}
+
+
+
